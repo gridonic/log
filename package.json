@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Consistent console logging.",
   "main": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "node src/test.js"
+  },
   "keywords": [
     "console",
     "logging"
