@@ -7,7 +7,32 @@
 
 ## Installation
 
-`$ npm install @gridonic/log`
+Very simple. Just run `$ npm install @gridonic/log`.
+
+<br>
+
+## How to use?
+
+Examples say more than a thousand words.
+
+```js
+const { info, error, success, warning } = require('@gridonic/log');
+
+try {
+    info('Starting my app…');
+    
+    if (specialCondition() === true) {
+        warning('Please pay attention to this.');
+    }
+    
+    // Make sure success message has enough blank space before it
+    success('Everything done.', 0, 3);
+} catch(myBadError) {
+    error(myBadError);
+}
+```
+
+You may also use the **second** (`newlineAfter`)  and **third** (`newlineBefore`) parameter for adding newlines.
 
 #  
 <p align="center">
