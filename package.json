@@ -1,0 +1,25 @@
+{
+  "name": "@gridonic/log",
+  "version": "1.0.0",
+  "description": "Consistent console logging.",
+  "main": "src/index.js",
+  "scripts": {},
+  "keywords": [
+    "console",
+    "logging"
+  ],
+  "author": "Gridonic <hello@gridonic.ch>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gridonic/log.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gridonic/log/issues"
+  },
+  "homepage": "https://github.com/gridonic/log#readme"
+}
