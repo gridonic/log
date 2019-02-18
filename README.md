@@ -1,6 +1,9 @@
-<p align="center">Consistent console logging.</p>
+<p align="center">
+  <img width="240" src="https://gridonic.github.io/assets/images/logos/gridonic.svg"><br>
+  Consistent console logging for our CLI apps.
+</p>
 
-<br><br>
+<br>
 
 ## Installation
 
